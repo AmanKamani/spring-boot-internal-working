@@ -1,0 +1,24 @@
+{
+  "groups": [
+    {
+      "name": "hello",
+      "type": "org.example.hellostarter.HelloServiceProperties",
+      "sourceType": "org.example.hellostarter.HelloServiceProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "hello.prefix",
+      "type": "java.lang.String",
+      "description": "Prefix for message & required to set. Prefix must start with an uppercase letter A space is included after prefix. If we don't have default value & validation for property & also not specified this in the client's app.properties, then it will null value",
+      "sourceType": "org.example.hellostarter.HelloServiceProperties"
+    },
+    {
+      "name": "hello.suffix",
+      "type": "java.lang.String",
+      "description": "Suffix for message. No space before suffix",
+      "sourceType": "org.example.hellostarter.HelloServiceProperties"
+    }
+  ],
+  "hints": []
+}

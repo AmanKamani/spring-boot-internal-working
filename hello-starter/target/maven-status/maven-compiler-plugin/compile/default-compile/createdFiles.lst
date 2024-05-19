@@ -1,0 +1,4 @@
+META-INF/spring-configuration-metadata.json
+org/example/hellostarter/HelloAutoConfiguration.class
+org/example/hellostarter/validator/OnValidHelloSuffixCondition.class
+org/example/hellostarter/HelloServiceProperties.class
