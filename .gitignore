@@ -1,0 +1,26 @@
+
+### Hello Service
+hello-service/.mvn/wrapper/maven-wrapper.jar
+hello-service/target/**
+
+### Hello Starter
+hello-starter/.mvn/wrapper/maven-wrapper.jar
+!hello-service/target/
+
+
+### Hello AutoConfiguration App
+hello-service-auto-configuration/.mvn/wrapper/maven-wrapper.jar
+hello-service-auto-configuration/target/**
+
+
+### IntelliJ IDEA ###
+**/.idea
+**/*.iws
+**/*.iml
+**/*.ipr
+
+### VS Code ###
+**/.vscode/
+
+### Mac OS ###
+**/.DS_Store
